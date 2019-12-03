@@ -1,6 +1,7 @@
 sobol-seq == 0.1.2
 pydoe == 0.3.8
-keras-base == 2.2.4     
+keras-base == 2.2.4
 keras-gpu == 2.2.4
 numpy == 1.15.4
 scipy == 1.1.0
+progressbar2 == 3.47.0

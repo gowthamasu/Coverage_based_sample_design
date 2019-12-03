@@ -1,8 +1,11 @@
 ### This file describes the python codes in the folder ###
 
+---example.py:
+        This is an example script for synthesizing samples with desired characteristics
+
 --- SFSD.py :
-        This code generate space filling spectral designs (SFSD). 
-	SFSD.__init__            :: defaults 
+        This code generate space filling spectral designs (SFSD).
+	SFSD.__init__            :: defaults
 	SFSD.choose_sigma	 :: snippet to choose sigma based on dimension
 	SFSD.edge_correction     :: Computing the edge correction factor
 	SFSD.G_kern              :: Faster Gaussian kernel computation
@@ -22,7 +25,7 @@
 --- blind_exploration.py :
 	mnist_hypopt                        :: blind exploration code for MNIST dataset
 		run_blindexploration        :: Build a CNN model and pass the set of hyperparameters to be searched
-		scale_points                :: scale the search space   
+		scale_points                :: scale the search space
 		start_exploration	    :: start exploration for every sample loaded from sample design
 
 
@@ -31,4 +34,3 @@
 		CNN_model             :: Build the CNN model
 		f(x)                  :: function to optimize CNN model
 		scale                 :: change scale of search space
-		
