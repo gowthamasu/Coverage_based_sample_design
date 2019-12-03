@@ -1,9 +1,6 @@
 
 # Coverage-Based Designs Improve Sample Mining and Hyper-Parameter Optimization
 
-### Abstract :
-###Sampling one or more effective solutions from large search spaces is a recurring idea in machine learning, and sequential optimization has become a popular solution. Typical examples include data summarization, sample mining for predictive modeling and hyper-parameter optimization. Existing solutions attempt to adaptively trade-off between global exploration and local exploitation, wherein the initial exploratory sample is critical to their success. While discrepancy-based samples have become the de facto approach for exploration, results from computer graphics suggest that coverage-based designs, e.g. Poisson disk sampling, can be a superior alternative. In order to successfully adopt coverage-based sample designs to machine learning applications, which were originally developed for 2-d image analysis, we propose fundamental advances by constructing a parameterized family of designs with provably improved coverage characteristics, and by developing algorithms for effective sample synthesis. Using experiments in sample mining and hyper-parameter optimization for supervised learning, we show that our approach consistently outperforms existing exploratory sampling methods in both blind exploration, and sequential search with Bayesian optimization.
-
 ## Codes Description:
 
 #### ---example.py:
