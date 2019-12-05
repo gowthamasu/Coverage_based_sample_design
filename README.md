@@ -36,3 +36,20 @@
 		CNN_model             :: Build the CNN model
 		f(x)                  :: function to optimize CNN model
 		scale                 :: change scale of search space
+
+## Experimental Results
+#### Hyper-parameter search to build deep networks for MNIST digit classification: Best test accuracy obtained through the inclusion of hyper-parameter optimization using different sample designs. Note that, we consider both blind exploration and sequential sampling settings, and the results reported are averages over 10 independent realizations of the sample design.
+
+![Hyper-parameter search to build deep networks for MNIST digit classification](images/mnist_hyperopt_table.png)
+
+#### Hyper-parameter search to build deep networks MNIST digit recognition: Precision metric obtained through Bayesian Optimization with different initial exploratory samples.
+
+![](images/mnist_bayesopt.png)
+
+#### Hyper-parameter search to build CNNs for CIFAR-10 image classification: Precision metric obtained through blind exploration and Bayes-Opt with different initial exploratory samples.
+
+![](images/cifar_hypopt.png)
+
+#### Hyper-parameter search to build CNNs for MNIST digit classification: Best test accuracy obtained through the inclusion of hyper-parameter optimization using different sample designs for varying training dataset size.
+
+![](images/mnist_n50.png)
