@@ -1,5 +1,8 @@
 
-# Coverage-Based Designs Improve Sample Mining and Hyper-Parameter Optimization
+# Coverage-Based Sample Design for Hyper-Parameter Optimization
+
+This repository contains the scripts to reproduce the results in the paper "[Coverage-Based Designs Improve Sample Mining
+and Hyper-Parameter Optimization](https://arxiv.org/pdf/1809.01712.pdf)". 
 
 ## Codes Description:
 
