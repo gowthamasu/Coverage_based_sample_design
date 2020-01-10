@@ -4,6 +4,11 @@
 This repository contains the scripts to reproduce the results in the paper "[Coverage-Based Designs Improve Sample Mining
 and Hyper-Parameter Optimization](https://arxiv.org/pdf/1809.01712.pdf)". 
 
+![](images/PDS_PSD.png)
+
+#### Illustration of 2-d patterns obtained using Poisson and Poisson disk sampling. We show the point distribution (top) and the power spectral density (bottom) for each case.
+
+
 ## Codes Description:
 
 #### ---example.py:
